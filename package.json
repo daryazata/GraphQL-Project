@@ -7,10 +7,13 @@
     "start": "nodemon src/index.js localhost 8080"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "4.17.1",
     "express-graphql": "0.11.0",
     "graphql": "15.3.0",
     "lodash": "4.17.19",
+    "mongoose": "^5.9.27",
+    "node-env-file": "^0.1.8",
     "prettier": "2.0.5"
   },
   "devDependencies": {

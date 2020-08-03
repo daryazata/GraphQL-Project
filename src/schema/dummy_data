@@ -1,0 +1,50 @@
+//dummy data
+/*
+let userData = [
+  { id: "1", age: 43, name: "Alex", profession: "Hunter" },
+  { id: "2", age: 25, name: "Nina", profession: "Programmer" },
+  { id: "3", age: 28, name: "Sam", profession: "Teacher" },
+  { id: "4", age: 29, name: "Olga", profession: "Painter" },
+  { id: "5", age: 21, name: "Natalie", profession: "Writer" }
+];
+
+let hobbiesData = [
+  {
+    id: "1",
+    title: "Swimming",
+    description: "going to swim every monday",
+    userId: "2"
+  },
+  {
+    id: "2",
+    title: "Chess",
+    description: "playing chess every tuesday",
+    userId: "3"
+  },
+  {
+    id: "3",
+    title: "TV",
+    description: "watching TV every wednesday",
+    userId: "3"
+  },
+  {
+    id: "4",
+    title: "Jogging",
+    description: "jogging every thursday",
+    userId: "4"
+  },
+  {
+    id: "5",
+    title: "Bouldering",
+    description: "bouldering every friday",
+    userId: "4"
+  }
+];
+
+let postsData = [
+  { id: "1", comment: "Great blog", userId: "1" },
+  { id: "2", comment: "I really like your course", userId: "1" },
+  { id: "3", comment: "Make more courses like this", userId: "2" },
+  { id: "4", comment: "cool blog", userId: "3" }
+];
+*/
