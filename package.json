@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node index.js",
-    "run":"nodemon src/index.js localhost 8080"
+    "run": "nodemon src/index.js localhost 8080"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -19,6 +19,7 @@
     "prettier": "2.0.5"
   },
   "devDependencies": {
+    "node-env-run": "^4.0.1",
     "nodemon": "1.18.4"
   },
   "keywords": []
