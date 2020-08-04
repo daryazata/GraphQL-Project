@@ -12,8 +12,12 @@ mongoose.connection.once('open',
 )
 const schema = require("./schema/schema");
 const type_schema = require("./schema/type__schema")
-
+const cors =require('cors')
 const app = express();
+const port = process.env.PORT || 8080
+
+
+app.use(cors())
 
 app.use(
   "/graphql",
@@ -25,6 +29,6 @@ app.use(
 );
 
 //express object
-app.listen(8080, () => {
+app.listen(port, () => {
   console.log(`listening on port 8080`);
 });
