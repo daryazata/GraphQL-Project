@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 require('dotenv').config()
 //console.log('The value for FOO is:', process.env.MONGODB_CONN);
 
-mongoose.connect(process.env.MONGODB_CONN,  { useNewUrlParser: true , useUnifiedTopology: true })
+mongoose.connect("mongodb+srv://darya:nHohascDb0G6eF0u@cluster0.tt30o.mongodb.net/GraphQlDB?retryWrites=true&w=majority",  { useNewUrlParser: true , useUnifiedTopology: true })
 mongoose.connection.once('open', 
 ()=> { console.log('Mongo DB Connected!')}
 )
